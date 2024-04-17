@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/search.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page for searching</title>
+</head>
+<body>
+    <h2>you can search here what ever you want</h2>
+    <h3>it's ok to make tiktoks:</h3>
+    <p>i just posted a video (17.04.2024) and i nailed the hook! i was holding 
+        about +50% engaged <br> for like 5 seconds, but the rest was shit, I'll 
+        remake it with the same hook but try to hold them longer, <br> let's se 
+        what is going to happened. Thanks for tuning in, this is just a mesage 
+        for me in the future, so that i can look <br> on this reposiori and be 
+        sure, that it was not luck </p>
+
+        https://www.google.com/search
+
+        <form action="https://www.reddit.com/search">
+            <input type="text" name="q" placeholder="Reddit search">
+            <button>search on reddit</button>
+        </form>
+        <h3>search google</h3>
+        <form action="https://www.google.com/search">
+            <input type="text" name="query">
+            
+        </form>
+
+        <h3>search Youtube</h3>
+
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query" placeholder="it&#39;s bad">
+            <button>Youtube</button>
+        </form>
+
+        <hr>
+        <h2>More inputs!</h2>
+        <form action="http://127.0.0.1:5500/a.html">
+            <input type="checkbox" name="lenght" id="norm">
+            <label for="norm">terms of service</label>
+             <p>
+                <label for="a">7</label>
+                <input type="radio" name="lenght" id="a" value="7">     <br>
+                <label for="a">10</label>
+                <input type="radio" name="lenght" id="a" value="10">    <br>
+                <label for="a">17,5</label>
+                <input type="radio" name="lenght" id="a" value="17,5">     
+             </p>
+             <button>submit</button> <br><hr>
+             <label for="">your gender please</label>
+             <select name="gender" id="gender">gender</select>
+        </form>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
