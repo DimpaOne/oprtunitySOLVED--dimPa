@@ -5,54 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>input opertunity</title>
+    <link rel="stylesheet" href="formStyle.css">
 </head>
 
 <body>
 
 
 
-<H1>Race registration!</H1>
+    <H1>Race registration!</H1>
 
-Name <input type="text">  <input type="text"> Last Name
+    Enter your <input type="text" placeholder="name please" id="name">
+    <label for="name"></label> 
 
-<br>
-
-<h3><b>Select a Race</b></h3>
-<form action="a.html">
-<label  for="Race">1km</label>
-    <input type="radio" id="Race" name="a">
-    <br> 
-
-    <label for="Race">Half Marathon</label>
-    <input type="radio" id="Race" name="a">
-    <br>
-
-
-    <label for="Race">Full Marathon</label>
-    <input type="radio" id="Race" name="a">
     <br> <br>
 
-    <label for="email1">Enter your </label>
-    <input type="email" name="email" id="email1" placeholder="Email please"> 
-<br> <br><br>
-    <label for="AGE">Seect your age group</label>
-    <select name="age" id="AGE">
-        <option value="#">select please</option>
-        <option value="uder18">under 18</option>
-        <option value="under25">under 25</option>
-        <option value="under50">under 5o</option>
-    </select>
-</p>
-<label for="url">we'll take your socials</label>
-<input id="url" type="url" placeholder="add the URL now!" required>
-<p>https://www.youtube.com/watch?v=SXjIG1Ingpc </p>
-<button>submit</button>
+    And the <input type="text" placeholder="last too">
 
-    <button>register!</button>
+    <br>
+
+    <h3><b>Select a Race</b></h3>
+    
+        <form action="a.html">
+
+        <input type="radio" name="race" id="fun" value="fun">
+        <label for="fun">1/69 Marathon</label>
+
+        <br>
+
+        <input type="radio" name="race" id="half" value="half">
+        <label for="half">1/2 Marathon</label>
+
+        <br>
+
+        <input type="radio" name="race" id="full" value="full">
+        <label for="full">1/1 Marathon</label>
+
+        <br> <br>
+
+        <div>
+        <label for="email1">Enter your </label>
+        <input type="email" name="email" id="email1" placeholder="Email right here!" required>
+
+        <br> <br><br>
+
+        <label for="AGE">Seect your age group</label>
+        <select name="age" id="AGE">
+            <option value="#">select please</option>
+            <option value="uder18">0-18</option>
+            <option value="under25">20-29</option>
+            <option value="under50">30-39</option>
+            <option value="under25">40-49</option>
+            <option value="under50">50-59</option>
+            <option value="under25">60-69</option>
+            <option disabled value="notAllowed">19 IS NOT ALLOWED</option>
+            
+        </select>
+    </div>
+        </p>
+        <label for="url">we'll take your socials</label>
+        <input id="url" type="url" placeholder="add the URL now!" required>
+        <p>https://www.youtube.com/watch?v=SXjIG1Ingpc </p>
+
+
+        <button>register!</button>
 
 
 
-</form>
+    </form>
 
 
 

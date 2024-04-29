@@ -1,0 +1,85 @@
+
+::selection {
+    color: rgb(255, 174, 0);
+}
+main {
+    background-color: #0E402D;
+}
+
+body {
+    background-color: #FFF4EC;
+}
+
+.headerMid {
+    text-align: center;
+    color: rgb(255, 174, 0);
+}
+
+
+input[type="search"] {
+    color: #cc5803;
+}
+
+button:hover {
+    color: #274C77 ;  
+    background-color: #E6AA68;
+    text-decoration: underline;
+    font-size: 12px;  
+    transition: 1s;
+}
+
+
+ 
+
+::selection {
+    color: rgb(255, 174, 0);
+}
+
+
+
+button {
+    border: #F77F00 4px outset;
+    border-radius: 15%;
+   
+}
+
+#fixed {
+    background-color: #acd1c3;
+    padding: 9px;
+    width: 160px;
+    height: 50px;
+    left: 600px;
+    border: red 9px dotted;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #721e16;
+    transition: 1s;
+
+ 
+}
+.circle:hover {
+    background-color: #00695b;
+    transition: 2s;
+}
+
+
+#neighbor{
+    width: 169px;
+    height: 169px;
+    border-radius: 30%;
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+#neighbor:hover {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}
