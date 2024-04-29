@@ -8,7 +8,13 @@ main {
 
 body {
     background-color: #FFF4EC;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100px;
+    background-color: black;
 }
+
 
 .headerMid {
     text-align: center;
@@ -82,4 +88,18 @@ button {
     width: 200px;
     height: 200px;
     background-color: crimson;
+}
+
+.alphaButton {
+     border: 2px solid;
+     padding: 1em 2em;
+     size: 1em;
+     transition: 0.4s;
+}
+
+.alphabutton:hover {
+    border-color: gold;
+    box-shadow: 12PX 12PX 10PX 1PX goldenrod;
+    color: white;
+    transform: translateY(-0.25em);
 }
