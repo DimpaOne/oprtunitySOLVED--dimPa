@@ -1,0 +1,35 @@
+body{
+    background-color: #caf0f8;
+}
+
+nav h3 {
+    color: #03045e;
+}
+
+.brd {
+    border: hsl(76, 100%, 50%) 3px dotted;
+}
+
+.btw {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navi {
+    background-color: #90e0ef;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+ /* .navi{
+    background-color: #90e0ef;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+} */
